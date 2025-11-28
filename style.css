@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0057ff, #002b7a);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #e3e3e3;
+    border-radius: 6px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #005fcc;
+}
+button.deleteBtn:hover {
+    background: rgb(199, 11, 11);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f7f7f7;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteBtn {
+    background: rgba(255, 0, 0, 0.811);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+
+}
+
+#emptyMsg {
+    color: gray;
+    margin-top: 15px;
+}
